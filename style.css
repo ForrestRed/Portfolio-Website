@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home { 
+  background: url(electricity.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.about {
+  background: url(bokeh1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.contact {
+  background: url(bokeh2.jpg) no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#menu {
+    text-align: right;
+    padding: 0 20px;
+}
+
+#menu li {
+    color: #fff;
+    padding: 20px 35px;
+    font-family: 'arial', sans-serif;
+    list-style-type: none;
+    display: inline-block
+}
+
+#menu a {
+    color: #fff;
+    font-family: 'arial', sans-serif;
+    text-decoration: none;
+}
+
+#logo a{
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    font-size: 26px;
+    list-style-type: none;
+    float: left;
+    text-decoration: none;
+    padding: 12px 35px;
+}
+
+#greet1 {
+    color: #fff;
+    position: absolute;
+    top: 39.5%;
+    left: 12%;
+    float: left;
+    font-family: 'Lobster', cursive;
+    font-size: 45px;
+    display: inline-block;
+    width: 27%;
+    height: 23%;
+    white-space: nowrap;
+}
+
+#greet2 {
+    color: #fff;
+    position: absolute;
+    top: 42%;
+    float: right;
+    right: 5.5%;
+    font-family: 'Lobster', cursive;
+    font-size: 28px;
+    display: inline-block;
+    width: 28%;
+    height: 15%;
+    white-space: nowrap;
+}
+
+#greet2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.bio {
+    color: #fff;
+    position: absolute;
+    top: 37%;
+    left: 5%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    width: 45%
+}
+
+#container {
+    width: 100%;
+    padding-top: 10%;
+    
+}
+
+#info {
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    background-color: rgba(71, 82, 99, .3);
+    width: 55%;
+    padding: 4%;
+    margin: 0px auto;
+}
+
+#info li {
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#floatR {
+    float: right;
+}
